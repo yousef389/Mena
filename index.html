@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <title>Happy Birthday Manosah ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="bg">
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+    <div class="glow glow-three"></div>
+    <div class="stars"></div>
+    <div id="floatingHearts"></div>
+  </div>
+
+  <!-- Music -->
+  <button id="musicBtn" class="music-btn" aria-label="تشغيل الموسيقى">
+    ♫
+  </button>
+
+  <audio id="music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+
+  <main>
+
+    <!-- ================= OPENING ================= -->
+
+    <section id="opening" class="page active">
+
+      <div class="hero">
+
+        <div class="hero-ring">
+          <div class="hero-heart">♥</div>
+        </div>
+
+        <div class="eyebrow">
+          A SPECIAL DAY FOR SOMEONE SPECIAL
+        </div>
+
+        <h1>
+          افتحي يا أحلى
+          <span>منوشة</span>
+          في الدنيا
+          <b>♥</b>
+        </h1>
+
+        <p>
+          في مفاجأة صغيرة معمولة مخصوص علشانك...
+        </p>
+
+        <button id="startBtn" class="primary-btn">
+          <span>✦</span>
+          افتحي المفاجأة
+          <span>✦</span>
+        </button>
+
+        <div class="hero-bottom">
+          <span>♡</span>
+          اضغطي وابدئي الحكاية
+          <span>♡</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= MESSAGE ================= -->
+
+    <section id="message" class="page">
+
+      <div class="content narrow">
+
+        <div class="section-tag">
+          <span>01</span>
+          YOUR SPECIAL DAY
+        </div>
+
+        <h2>
+          كل سنة وانتي طيبة
+          <strong>يا قلبي ❤️</strong>
+        </h2>
+
+        <div class="message-card">
+
+          <div class="card-light"></div>
+
+          <div class="big-quote">“</div>
+
+          <p id="typingText"></p>
+
+          <div class="line-heart">
+            <i></i>
+            <span>♥</span>
+            <i></i>
+          </div>
+
+        </div>
+
+        <button class="next-btn" data-next="gallery">
+          <span>كملي الحكاية</span>
+          ↓
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PHOTOS ================= -->
+
+    <section id="gallery" class="page">
+
+      <div class="content wide">
+
+        <div class="section-tag">
+          <span>02</span>
+          BEAUTIFUL MEMORIES
+        </div>
+
+        <h2>
+          أحلى صور لأحلى
+          <strong>منوشة ❤️</strong>
+        </h2>
+
+        <p class="section-subtitle">
+          كل صورة ليها حكاية... وكل واحدة فيهم ليها مكان مخصوص هنا.
+        </p>
+
+
+        <div class="photos">
+
+          <article class="photo-card">
+
+            <button
+              class="photo"
+              data-image="photo1.jpg"
+              data-caption="أحلى قمر في الدنيا ❤️"
+            >
+
+              <div class="photo-image">
+                <img
+                  src="photo1.jpg"
+                  alt="أحلى قمر في الدنيا"
+                  loading="lazy"
+                >
+
+                <div class="photo-shine"></div>
+
+                <div class="view-photo">
+                  <span>⌕</span>
+                  مشاهدة الصورة
+                </div>
+              </div>
+
+              <div class="photo-text">
+                <small>MEMORY 01</small>
+                <h3>أحلى قمر في الدنيا ❤️</h3>
+              </div>
+
+            </button>
+
+          </article>
+
+
+          <article class="photo-card">
+
+            <button
+              class="photo"
+              data-image="photo2.jpg"
+              data-caption="حبيبتي كبرت سنة 🥹❤️"
+            >
+
+              <div class="photo-image">
+                <img
+                  src="photo2.jpg"
+                  alt="حبيبتي كبرت سنة"
+                  loading="lazy"
+                >
+
+                <div class="photo-shine"></div>
+
+                <div class="view-photo">
+                  <span>⌕</span>
+                  مشاهدة الصورة
+                </div>
+              </div>
+
+              <div class="photo-text">
+                <small>MEMORY 02</small>
+                <h3>حبيبتي كبرت سنة 🥹❤️</h3>
+              </div>
+
+            </button>
+
+          </article>
+
+
+          <article class="photo-card">
+
+            <button
+              class="photo"
+              data-image="photo3.jpg"
+              data-caption="أحلى سكر كده كده 🍬❤️"
+            >
+
+              <div class="photo-image">
+                <img
+                  src="photo3.jpg"
+                  alt="أحلى سكر كده كده"
+                  loading="lazy"
+                >
+
+                <div class="photo-shine"></div>
+
+                <div class="view-photo">
+                  <span>⌕</span>
+                  مشاهدة الصورة
+                </div>
+              </div>
+
+              <div class="photo-text">
+                <small>MEMORY 03</small>
+                <h3>أحلى سكر كده كده 🍬❤️</h3>
+              </div>
+
+            </button>
+
+          </article>
+
+        </div>
+
+
+        <button class="next-btn" data-next="cake">
+          <span>نروح للتورتة 🎂</span>
+          ↓
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CAKE ================= -->
+
+    <section id="cake" class="page">
+
+      <div class="content">
+
+        <div class="section-tag">
+          <span>03</span>
+          MAKE A WISH
+        </div>
+
+        <h2>
+          يلا نتمنى
+          <strong>أمنية 🎂</strong>
+        </h2>
+
+        <div class="cake-scene">
+
+          <div class="cake-glow"></div>
+
+          <div class="cake">
+
+            <div class="candles">
+
+              <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="stick"></div>
+              </div>
+
+              <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="stick"></div>
+              </div>
+
+              <div class="candle">
+                <div class="flame"></div>
+                <div class="wick"></div>
+                <div class="stick"></div>
+              </div>
+
+            </div>
+
+            <div class="cream">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <div class="cake-top"></div>
+            <div class="cake-middle"></div>
+            <div class="cake-bottom"></div>
+
+          </div>
+
+        </div>
+
+        <button id="blowBtn" class="primary-btn">
+          🕯️ اطفي الشمع
+        </button>
+
+        <div id="wish" class="wish">
+          يارب كل أمنياتك تتحقق ❤️
+        </div>
+
+        <button
+          id="cakeNext"
+          class="next-btn hidden"
+          data-next="letter"
+        >
+          <span>في رسالة ليكي 💌</span>
+          ↓
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= LETTER ================= -->
+
+    <section id="letter" class="page">
+
+      <div class="content">
+
+        <div class="section-tag">
+          <span>04</span>
+          A LITTLE LETTER
+        </div>
+
+        <h2>
+          رسالة صغيرة
+          <strong>ليكي ❤️</strong>
+        </h2>
+
+        <button id="envelope" class="envelope">
+
+          <div class="env-back"></div>
+
+          <div class="paper">
+
+            <div class="paper-title">
+              To: Manosah ❤️
+            </div>
+
+            <p>
+              وجودك في الدنيا لوحده حاجة جميلة،
+              وعقبال سنين كتير كلها فرحة
+              وضحك ونجاح ❤️
+            </p>
+
+          </div>
+
+          <div class="env-front"></div>
+          <div class="env-flap"></div>
+
+          <div class="seal">
+            ♥
+          </div>
+
+        </button>
+
+        <p id="envelopeHint" class="hint">
+          اضغطي على الظرف 💌
+        </p>
+
+        <button
+          id="letterNext"
+          class="next-btn hidden"
+          data-next="gift"
+        >
+          <span>لسه في حاجة أخيرة 🎁</span>
+          ↓
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= GIFT ================= -->
+
+    <section id="gift" class="page">
+
+      <div class="content">
+
+        <div class="section-tag">
+          <span>05</span>
+          THE FINAL SURPRISE
+        </div>
+
+        <h2>
+          لسه في حاجة
+          <strong>أخيرة... 🎁</strong>
+        </h2>
+
+        <button id="giftBtn" class="gift">
+
+          <div class="bow">
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="gift-lid">
+            <div class="gift-ribbon"></div>
+          </div>
+
+          <div class="gift-box">
+            <div class="gift-ribbon"></div>
+            <div class="gift-reflection"></div>
+          </div>
+
+        </button>
+
+        <p id="giftHint" class="hint">
+          افتحي الهدية 🎁
+        </p>
+
+
+        <div id="final" class="final">
+
+          <div class="final-stars">
+            ✦　♥　✦　♥　✦
+          </div>
+
+          <div class="final-small">
+            TODAY IS ALL ABOUT YOU
+          </div>
+
+          <h3>
+            HAPPY BIRTHDAY
+            <span>MANOSAH</span>
+          </h3>
+
+          <p>
+            كل سنة وانتي أجمل حاجة ❤️
+          </p>
+
+          <div class="final-line">
+            <i></i>
+            <span>♥</span>
+            <i></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= LIGHTBOX ================= -->
+
+  <div id="lightbox" class="lightbox">
+
+    <button id="closeLightbox" class="close">
+      ×
+    </button>
+
+    <div class="lightbox-inner">
+
+      <div class="lightbox-image">
+        <img id="lightboxImg" src="" alt="">
+      </div>
+
+      <p id="lightboxCaption"></p>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
