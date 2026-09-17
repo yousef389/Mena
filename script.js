@@ -113,7 +113,7 @@ function setupOpening() {
 ========================================= */
 
 function setupNavigation() {
-  $$("[data-next]").forEach(button => {
+  $$(["data-next"]).forEach(button => {
     button.addEventListener("click", () => {
       const nextScene = button.dataset.next;
 
@@ -125,7 +125,7 @@ function setupNavigation() {
 }
 
 function showScene(id) {
-  const scenes = $$(".scene");
+  const scenes = $(".scene");
 
   scenes.forEach(scene => {
     scene.classList.remove("active");
@@ -159,7 +159,7 @@ function startTypingAnimation() {
   if (!element) return;
 
   const text =
-    "العمر كله ليكي إن شاء الله، وأشوفك أحلى واحدة في الدنيا كلها. ربنا يخليكي وتحققي كل اللي نفسك فيه، وكل سنة وانتي طيبة يا منوشة ❤️";
+    "العمر كله ليكي إن شاء الله، وأشوفك أحلى واحدة في الدنيا كلها. ربنا يخليكي وتحققي كل اللي نفسك فيه، وكل سنة وانتي طيبة يا قلبي ❤️";
 
   let index = 0;
 
@@ -536,9 +536,9 @@ function setupMusic() {
 
 function preloadImages() {
   const paths = [
-    "images/photo1.jpg",
-    "images/photo2.jpg",
-    "images/photo3.jpg"
+    "photo1.jpg",
+    "photo2.jpg",
+    "photo3.jpg"
   ];
 
   paths.forEach(path => {
